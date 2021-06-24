@@ -6,15 +6,15 @@
 }
 
 .products-row {
-    background-color: aqua;
     width: 65%;
-    height: 50vh;
     margin: auto;
-    
+    padding: auto 30px;
 }
 
 .item-card{
-    width: calc(100% / 3);
+    width: calc((96% - 60px) / 3);
+    display: inline-block;
+    margin: calc((100% - (96% - 60px)) / 6)
 }
 
 .image-container {
@@ -30,16 +30,15 @@
     display: none;
 }
 
-.hidden-img:hover {
-    display: inline-block;
-}
-
-.displayed-img:hover {
+.item-card:hover .displayed-img {
     display: none;
 }
 
+.item-card:hover .hidden-img {
+    display: block;
+}
+
 .heart-box {
-    /* display: inline-block; */
     background-color: #FFFFFF;
     width: 2em;
     height: 2em;

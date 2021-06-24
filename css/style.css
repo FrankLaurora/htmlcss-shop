@@ -10,10 +10,15 @@
     width: 65%;
     height: 50vh;
     margin: auto;
+    
 }
 
 .item-card{
     width: calc(100% / 3);
+}
+
+.image-container {
+    width: 100%;
     position: relative;
 }
 
@@ -63,4 +68,8 @@
 
 .eco {
     background-color: #00875a;
+}
+
+.discounted-price {
+    color: #eb0037;
 }

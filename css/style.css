@@ -4,3 +4,63 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.products-row {
+    background-color: aqua;
+    width: 65%;
+    height: 50vh;
+    margin: auto;
+}
+
+.item-card{
+    width: calc(100% / 3);
+    position: relative;
+}
+
+.item-card img {
+    width: 100%;
+}
+
+.hidden-img {
+    display: none;
+}
+
+.hidden-img:hover {
+    display: inline-block;
+}
+
+.displayed-img:hover {
+    display: none;
+}
+
+.heart-box {
+    /* display: inline-block; */
+    background-color: #FFFFFF;
+    width: 2em;
+    height: 2em;
+    font-size: 1.5em;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    text-align: center;
+    line-height: 2em;
+}
+
+.banner{
+    position: absolute;
+    bottom: 10px;
+    color: #FFFFFF;
+}
+
+.banner div {
+    display: inline-block;
+    padding: 0.2em;
+}
+
+.discount {
+    background-color: #eb0037;
+}
+
+.eco {
+    background-color: #00875a;
+}
